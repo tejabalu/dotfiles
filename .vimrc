@@ -75,6 +75,11 @@ map gi :vsc Edit.GoToImplementation<CR>
 map gI :vsc ReSharper.ReSharper_PeekImplementations<CR>
 map gr :vsc Edit.FindAllReferences<CR>
 map gD :vsc Edit.PeekDefinition<CR>
+" Navigate forwards and backwards
+map gf :vsc View.NavigateForward<CR>
+map gb :vsc View.NavigateBackward<CR>
+
+
 
 " break out of the tyranny of text! Navigate by method
 nnoremap m :vsc Edit.NextMethod<cr>
