@@ -80,7 +80,10 @@ map gf :vsc View.NavigateForward<CR>
 map gb :vsc View.NavigateBackward<CR>
 
 
-
 " break out of the tyranny of text! Navigate by method
 nnoremap m :vsc Edit.NextMethod<cr>
 nnoremap M :vsc Edit.PreviousMethod<cr>
+
+"make < > shifts keep selection
+vnoremap < <gv
+vnoremap > >gv

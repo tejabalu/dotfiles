@@ -48,6 +48,10 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+"make < > shifts keep selection
+vnoremap < <gv
+vnoremap > >gv
+
 if has('ide')
 	" Remaps specifically for ideavim implementation
 	xmap z <Plug>VSurround
